@@ -1,0 +1,90 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'edu.sc.seis.launch4j' version '2.5.0'
+}
+
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.base', 'javafx.media']
+}
+
+launch4j {
+    outfile = 'Chocolate-Cartel.exe'
+    mainClassName = 'Main'
+    icon = "${projectDir}/src/main/resources/logo_freigestellt.ico"
+    productName = 'Chocolate-Cartel'
+}
+
+group 'ch.unibas.dmi.dbis'
+version 'v1.0'
+mainClassName = 'Main'
+
+//specifies source compatibility to Java 11
+sourceCompatibility = 1.11
+
+//adds maven central as a maven repository
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+
+/* The following lines are extensively documented. Please remove the documentation when you have read and understood it. */
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+    testImplementation "org.mockito:mockito-core:3.+"
+
+    /**
+     * import Guava from remote repository
+     */
+    compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
+
+    // EXAMPLE: LOGGING
+    /*
+    The following adds the logging framework Apache Log4J2.
+    The statements serve as an example on how to use libraries.
+    Since these are `implementation` dependencies, they are packed in the final jar.
+    Read the documentation at https://docs.gradle.org/current/userguide/declaring_dependencies.html to learn more
+     */
+    //implementation 'org.apache.logging.log4j:log4j-api:2.+'
+    //implementation 'org.apache.logging.log4j:log4j-core:2.+'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+
+    /*
+    This is another example - it imports the javafx-controls dependency
+     */
+    implementation 'org.openjfx:javafx-controls:11.0.2'
+
+    // JUNIT
+    /*
+    The following dependency is required to perform JUnit tests, as for example HelloWorldTest.
+    Since it is a `testCompile` dependency, it will not be part of the final product, only during testing.
+     */
+    testImplementation 'junit:junit:4.+'
+}
+
+/*
+The following block adds both compile and runtime dependencies to the jar
+ */
+jar {
+    manifest {
+        attributes(
+                'Main-Class': "Main"
+        )
+    }
+    from {
+        configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+task "build-cs108" {
+    dependsOn(javadoc)
+    dependsOn(clean)
+    dependsOn(jar)
+}
+
+

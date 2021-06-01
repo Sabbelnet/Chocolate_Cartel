@@ -1,0 +1,85 @@
+.logo {
+    -fx-background-image: url("logo_freigestellt.png");
+}
+
+.startbackground {
+    -fx-background-image: url("Startbildschirm.png");
+    -fx-background-size: cover;
+}
+
+.settingSymbol {
+    -fx-background-image: url("buttons/settings_symbol.png");
+    -fx-background-size: contain;
+}
+
+.chocolatebutton {
+    -fx-background-image: url("buttons/button.png");
+    -fx-background-size: stretch;
+}
+
+.longChocolatebutton {
+    -fx-background-image: url("buttons/longChocolateButton.png");
+    -fx-background-size: stretch;
+}
+
+.buildButton {
+    -fx-background-image: url("buttons/buildButton.png");
+    -fx-background-size: contain;
+}
+
+.boosterButton {
+    -fx-background-image: url("buttons/boosterButton.png");
+    -fx-background-size: contain;
+}
+
+.settingButton {
+    -fx-background-image: url("buttons/SettingButton.png");
+    -fx-background-size: contain;
+}
+
+.highscoreButton {
+    -fx-background-image: url("buttons/highscoreButton.png");
+    -fx-background-size: contain;
+}
+
+.buyButton {
+    -fx-background-image: url("buttons/buyButton.png");
+    -fx-background-size: contain;
+}
+
+.sellButton {
+    -fx-background-image: url("buttons/sellButton.png");
+    -fx-background-size: contain;
+}
+
+.logoutButton {
+    -fx-background-image: url("buttons/logoutButton.png");
+    -fx-background-size: contain;
+}
+
+.spyButton {
+    -fx-background-image: url("buttons/spyButton.png");
+    -fx-background-size: contain;
+}
+
+.tipsButton {
+    -fx-background-image: url("buttons/tipsButton.png");
+    -fx-background-size: contain;
+}
+
+.dataButton {
+    -fx-background-image: url("buttons/dataButton.png");
+    -fx-background-size: contain;
+}
+
+.gamebackground {
+    -fx-background-image: url("background.png");
+    -fx-background-size: contain;
+    -fx-background-repeat: stretch;
+}
+
+.plainBackground {
+    -fx-background-image: url("plain_background.png");
+}
+
+

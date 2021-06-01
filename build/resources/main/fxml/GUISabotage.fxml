@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="524.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUISabotageController">
+   <children>
+      <VBox fx:id="spyContent" alignment="TOP_CENTER" layoutX="32.0" layoutY="42.0" prefHeight="329.0" prefWidth="169.0">
+         <children>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <ComboBox fx:id="playerList" minHeight="25.0" minWidth="85.0" prefHeight="25.0" prefWidth="85.0" promptText="player" styleClass="longChocolatebutton" />
+                  <Button fx:id="showBuildingsButton" mnemonicParsing="false" onAction="#getBuildingList" prefHeight="25.0" styleClass="longChocolatebutton" text="show buildings" textFill="#703501">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Label fx:id="warning" prefHeight="17.0" prefWidth="190.0" text="please choose a building" textFill="#df0000" visible="false" />
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="buildings" />
+            <ListView fx:id="buildingList" prefHeight="202.0" prefWidth="169.0" />
+            <Button fx:id="sabotageButton" mnemonicParsing="false" onAction="#handleSabotageButton" prefHeight="26.0" prefWidth="84.0" styleClass="chocolatebutton" text="sabotage" textFill="#703501">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Label fx:id="sabotageAnswer" layoutX="324.0" layoutY="76.0" prefHeight="273.0" prefWidth="175.0" textFill="#703501" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="125.0" fitWidth="97.0" layoutX="218.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../symbols/spySab.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

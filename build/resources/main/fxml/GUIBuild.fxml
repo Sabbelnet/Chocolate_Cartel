@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUIBuildingController">
+   <children>
+      <MenuButton fx:id="BuildingMenu" layoutX="36.0" layoutY="54.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" styleClass="chocolatebutton" text="Building" textFill="#703501">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#buildSugar" text="sugarfarm" />
+          <MenuItem mnemonicParsing="false" onAction="#buildCacao" text="cacaofarm" />
+            <MenuItem mnemonicParsing="false" onAction="#buildMilk" text="stables" />
+            <MenuItem mnemonicParsing="false" onAction="#buildChocolate" text="factory" />
+            <MenuItem mnemonicParsing="false" onAction="#buildLab" text="laboratory" />
+            <MenuItem mnemonicParsing="false" onAction="#buildWarehouse" text="warehouse" />
+        </items>
+      </MenuButton>
+      <Label fx:id="buildingInfo" layoutX="272.0" layoutY="14.0" prefWidth="300.0" textFill="#70460f" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Button fx:id="buildButton" layoutX="272.0" layoutY="276.0" mnemonicParsing="false" onAction="#build" prefHeight="75.0" prefWidth="122.0" styleClass="chocolatebutton" text="level up/ build" textFill="#703501" visible="false" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="tearDownButton" layoutX="436.0" layoutY="276.0" mnemonicParsing="false" onAction="#tearDown" prefHeight="75.0" prefWidth="122.0" styleClass="chocolatebutton" text="tear down" textFill="#703501" visible="false" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="choosingInfo" layoutX="36.0" layoutY="14.0" prefHeight="40.0" prefWidth="90.0" text="please choose a building" textFill="#703501" wrapText="true" />
+      <Label fx:id="buildingLabel" layoutX="21.0" layoutY="173.0" prefHeight="17.0" prefWidth="152.0" text="Building on next Level:" textFill="#703501" visible="false" />
+      <ImageView fx:id="sugarView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/sugar_level_1.png" />
+         </image></ImageView>
+      <ImageView fx:id="sugarView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/sugar_level_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sugarView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/sugar_level_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cacaoView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/cacao_level_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cacaoView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/cacao_level_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cacaoView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/cacao_level_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="milkView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/milk_level_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="milkView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/milk_level_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="milkView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/milk_level_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chocolateView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/chocolate_level_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chocolateView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/chocolate_level_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chocolateView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/chocolate_level_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="labView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/laboratory_level_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="labView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/laboratory_level_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="labView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/laboratory_level_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="warehouseView1" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/warehouse1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="warehouseView2" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/warehouse2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="warehouseView3" fitHeight="189.0" fitWidth="212.0" layoutX="20.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../buildings/warehouse3.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

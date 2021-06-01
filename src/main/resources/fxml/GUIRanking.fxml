@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUIRankingController">
+   <children>
+      <VBox alignment="TOP_CENTER">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" text="ranking" textAlignment="CENTER" textFill="#703501">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Label>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <Label fx:id="rankingList" alignment="TOP_LEFT" textFill="#703501" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <FlowPane layoutX="126.0" layoutY="10.0" prefWidth="100.0" />
+                  <VBox>
+                     <children>
+                        <HBox minHeight="25.0" />
+                        <Label text="Game Settings:" textFill="#703501">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="gamgoDataLabel" textFill="#703501" wrapText="true" />
+                     </children>
+                  </VBox>
+                  <FlowPane prefWidth="10.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="showHighscoreButton" layoutY="335.0" mnemonicParsing="false" onAction="#showHighscore" prefHeight="51.0" prefWidth="142.0" styleClass="chocolatebutton" text="show highscore" textFill="#703501" />
+   </children>
+</AnchorPane>

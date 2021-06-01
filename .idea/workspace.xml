@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22a888d5-86ef-475c-8391-967802fba5d7" name="Default Changelist" comment="added utf-8 for inputstreams">
+      <change beforePath="$PROJECT_DIR$/outreach/Chocolate_Cartel_gameplay.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outreach/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outreach/video.mp4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Chocolate_Cartel" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Chocolate_Cartel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Chocolate_Cartel" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Chocolate_Cartel" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="masterCopy" />
+    <option name="OPTIONS">
+      <set>
+        <option value="COMMIT_MESSAGE" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Sascha &lt;sascha.maibach@stud.unibas.ch&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ppYSqH7FrPMYfRS3oJBbNyfMB7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/outreach" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projekt\Gruppe-11\outreach" />
+      <recent name="C:\projekt\Gruppe-11\src\main\resources" />
+      <recent name="C:\projekt\Gruppe-11\outreach\downloads" />
+      <recent name="C:\projekt\Gruppe-11\src\main\java\server" />
+      <recent name="C:\projekt\Gruppe-11\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="server" />
+      <recent name="TestGUI" />
+      <recent name="client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+      <recent name="server" />
+      <recent name="TestClient" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle run" />
+      <command value="gradle run server 8091" />
+      <command value="gradle :run server 8091" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.Gruppe-11 [test]">
+    <configuration name="ClientMain" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="client.Main" />
+      <module name="Chocolate_Cartel.main" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 8090 Gormuk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MAIN" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="example-project.main" />
+      <option name="PROGRAM_PARAMETERS" value="server 8090" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Main" />
+      <module name="Chocolate_Cartel.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testClient.TestClient" />
+      <module name="Chocolate_Cartel.main" />
+      <option name="PROGRAM_PARAMETERS" value="localhost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server/Client" type="CompoundRunConfigurationType">
+      <toRun name="Main" type="Application" />
+      <toRun name="ClientMain" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Server/TestClient" type="CompoundRunConfigurationType">
+      <toRun name="Main" type="Application" />
+      <toRun name="ClientMain" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="Main" type="Application" />
+      <toRun name="ClientMain" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ConnectionHandlerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;server.ConnectionHandlerTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gruppe-11 [createAllExecutables]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="createAllExecutables" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gruppe-11 [launch4j]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="launch4j" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Gruppe-11 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientMain" />
+      <item itemvalue="Application.MAIN" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestClient" />
+      <item itemvalue="Compound.Server/Client" />
+      <item itemvalue="Compound.Server/TestClient" />
+      <item itemvalue="Gradle.Gruppe-11 [test]" />
+      <item itemvalue="Gradle.ConnectionHandlerTests" />
+      <item itemvalue="Gradle.Gruppe-11 [launch4j]" />
+      <item itemvalue="Gradle.Gruppe-11 [createAllExecutables]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Gruppe-11 [createAllExecutables]" />
+        <item itemvalue="Gradle.Gruppe-11 [launch4j]" />
+        <item itemvalue="Gradle.ConnectionHandlerTests" />
+        <item itemvalue="Gradle.Gruppe-11 [test]" />
+        <item itemvalue="Application.TestClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Sascha\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22a888d5-86ef-475c-8391-967802fba5d7" name="Default Changelist" comment="" />
+      <created>1615881506984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615881506984</updated>
+      <workItem from="1615881510674" duration="611000" />
+      <workItem from="1616146436018" duration="3690000" />
+      <workItem from="1616171328536" duration="2930000" />
+      <workItem from="1616317511242" duration="26000" />
+      <workItem from="1616317647173" duration="1548000" />
+      <workItem from="1616330770905" duration="23579000" />
+      <workItem from="1616401433439" duration="8349000" />
+      <workItem from="1616411603333" duration="5104000" />
+      <workItem from="1616418031677" duration="2672000" />
+      <workItem from="1616483218080" duration="6951000" />
+      <workItem from="1616492468122" duration="631000" />
+      <workItem from="1616493120808" duration="12708000" />
+      <workItem from="1616686081426" duration="25665000" />
+      <workItem from="1616833135731" duration="13137000" />
+      <workItem from="1616852598504" duration="337000" />
+      <workItem from="1617093256833" duration="10000" />
+      <workItem from="1617093626067" duration="654000" />
+      <workItem from="1617174781404" duration="1737000" />
+      <workItem from="1617180623637" duration="1438000" />
+      <workItem from="1617182201028" duration="10040000" />
+      <workItem from="1617258192347" duration="12144000" />
+      <workItem from="1617449880991" duration="7396000" />
+      <workItem from="1617458729592" duration="1512000" />
+      <workItem from="1617530714465" duration="2919000" />
+      <workItem from="1617604084719" duration="2458000" />
+      <workItem from="1617608292747" duration="1688000" />
+      <workItem from="1617796383389" duration="89000" />
+      <workItem from="1617868974202" duration="2062000" />
+      <workItem from="1618037597556" duration="295000" />
+      <workItem from="1618038008030" duration="15343000" />
+      <workItem from="1618127030980" duration="5264000" />
+      <workItem from="1618137070791" duration="10749000" />
+      <workItem from="1618209112637" duration="19420000" />
+      <workItem from="1618295892389" duration="14573000" />
+      <workItem from="1618324293568" duration="4222000" />
+      <workItem from="1618470805810" duration="15797000" />
+      <workItem from="1618499236576" duration="1044000" />
+      <workItem from="1618575272096" duration="2480000" />
+      <workItem from="1618577793232" duration="11662000" />
+      <workItem from="1618637400558" duration="18005000" />
+      <workItem from="1618659103345" duration="2371000" />
+      <workItem from="1618666233926" duration="4263000" />
+      <workItem from="1618729317171" duration="12452000" />
+      <workItem from="1618757040098" duration="24076000" />
+      <workItem from="1618848609877" duration="4000" />
+      <workItem from="1618904771448" duration="595000" />
+      <workItem from="1618996255688" duration="335000" />
+      <workItem from="1618996670613" duration="5094000" />
+      <workItem from="1619075333484" duration="689000" />
+      <workItem from="1619079873197" duration="835000" />
+      <workItem from="1619179749141" duration="148000" />
+      <workItem from="1619180424710" duration="1445000" />
+      <workItem from="1619187426821" duration="2365000" />
+      <workItem from="1619241772448" duration="33038000" />
+      <workItem from="1619328057326" duration="28441000" />
+      <workItem from="1619421864704" duration="2785000" />
+      <workItem from="1619504525320" duration="5149000" />
+      <workItem from="1619510042364" duration="3775000" />
+      <workItem from="1619612081933" duration="214000" />
+      <workItem from="1619612354816" duration="2768000" />
+      <workItem from="1619781535485" duration="209000" />
+      <workItem from="1619781846106" duration="34601000" />
+      <workItem from="1619934191341" duration="12828000" />
+      <workItem from="1620025844871" duration="8929000" />
+      <workItem from="1620105172315" duration="151000" />
+      <workItem from="1620105338096" duration="13069000" />
+      <workItem from="1620223264424" duration="2331000" />
+      <workItem from="1620279146230" duration="12318000" />
+      <workItem from="1620322907406" duration="7817000" />
+      <workItem from="1620377715513" duration="7567000" />
+      <workItem from="1620454649805" duration="14112000" />
+      <workItem from="1620544088660" duration="39706000" />
+      <workItem from="1620714431548" duration="6452000" />
+      <workItem from="1620723250238" duration="657000" />
+      <workItem from="1620725304489" duration="59000" />
+      <workItem from="1620725416897" duration="623000" />
+      <workItem from="1620726644386" duration="181000" />
+      <workItem from="1620726876649" duration="802000" />
+      <workItem from="1620830695910" duration="549000" />
+      <workItem from="1620831320691" duration="91000" />
+      <workItem from="1620894724501" duration="1453000" />
+      <workItem from="1621061459790" duration="26269000" />
+      <workItem from="1621146246922" duration="25248000" />
+      <workItem from="1621189628187" duration="1774000" />
+      <workItem from="1621233822025" duration="2950000" />
+      <workItem from="1621270303608" duration="641000" />
+      <workItem from="1621312276415" duration="30453000" />
+      <workItem from="1621363404152" duration="582000" />
+      <workItem from="1621412824624" duration="32293000" />
+      <workItem from="1621491737925" duration="6644000" />
+      <workItem from="1621515052572" duration="2096000" />
+      <workItem from="1621575873688" duration="28974000" />
+      <workItem from="1621665564051" duration="14432000" />
+      <workItem from="1621686605764" duration="31000" />
+      <workItem from="1621753412361" duration="10859000" />
+      <workItem from="1621769416349" duration="21162000" />
+      <workItem from="1621795653900" duration="173000" />
+      <workItem from="1621923502511" duration="5648000" />
+      <workItem from="1622029182017" duration="930000" />
+      <workItem from="1622105104148" duration="656000" />
+      <workItem from="1622293256209" duration="451000" />
+      <workItem from="1622530474439" duration="2151000" />
+    </task>
+    <task id="LOCAL-00209" summary="temporary removed javadoc from build-cs108">
+      <created>1621495110890</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1621495110890</updated>
+    </task>
+    <task id="LOCAL-00210" summary="changed: update is sent immediatly after a new player joined">
+      <created>1621515693569</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1621515693569</updated>
+    </task>
+    <task id="LOCAL-00211" summary="changed: update is sent immediatly after a new player logged in">
+      <created>1621515814266</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1621515814266</updated>
+    </task>
+    <task id="LOCAL-00212" summary="changed: UPDAT and GETGL are sent after every change&#10;&#10;fixed: negative chocolate amount">
+      <created>1621583175022</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1621583175023</updated>
+    </task>
+    <task id="LOCAL-00213" summary="improved and added test in EcoSimTest&#10;&#10;fixed crash when using special command multiple times">
+      <created>1621592654648</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1621592654648</updated>
+    </task>
+    <task id="LOCAL-00214" summary="fixed oompaloompa">
+      <created>1621593464156</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1621593464156</updated>
+    </task>
+    <task id="LOCAL-00215" summary="improved special command handling">
+      <created>1621597436975</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1621597436975</updated>
+    </task>
+    <task id="LOCAL-00216" summary="added bug">
+      <created>1621598785277</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1621598785277</updated>
+    </task>
+    <task id="LOCAL-00217" summary="added bug">
+      <created>1621601116468</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1621601116468</updated>
+    </task>
+    <task id="LOCAL-00218" summary="fixed sabotage not costing money">
+      <created>1621602830783</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1621602830784</updated>
+    </task>
+    <task id="LOCAL-00219" summary="fixed highscore not sent during game">
+      <created>1621604309810</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1621604309810</updated>
+    </task>
+    <task id="LOCAL-00220" summary="added 1000 ms sleep befor shutting down after loguot">
+      <created>1621605311195</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1621605311195</updated>
+    </task>
+    <task id="LOCAL-00221" summary="added bug reports to bugList">
+      <created>1621608989871</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1621608989871</updated>
+    </task>
+    <task id="LOCAL-00222" summary="fixed: duplicate entries in UPDAT">
+      <created>1621609254156</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1621609254156</updated>
+    </task>
+    <task id="LOCAL-00223" summary="fixed leave group not working as intended">
+      <created>1621669539318</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1621669539318</updated>
+    </task>
+    <task id="LOCAL-00224" summary="fixed leave group not working as intended">
+      <created>1621670030573</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1621670030573</updated>
+    </task>
+    <task id="LOCAL-00225" summary="new buglist">
+      <created>1621676339131</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1621676339131</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Code and import cleanup in server package">
+      <created>1621677077925</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1621677077925</updated>
+    </task>
+    <task id="LOCAL-00227" summary="fixed: PRDUP not sending price">
+      <created>1621677332341</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1621677332341</updated>
+    </task>
+    <task id="LOCAL-00228" summary="added bugs from betatest to bugList">
+      <created>1621677598608</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1621677598608</updated>
+    </task>
+    <task id="LOCAL-00229" summary="update bugList">
+      <created>1621677862630</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1621677862630</updated>
+    </task>
+    <task id="LOCAL-00230" summary="update bugList">
+      <created>1621684475870</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1621684475871</updated>
+    </task>
+    <task id="LOCAL-00231" summary="update bugList">
+      <created>1621754742375</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1621754742376</updated>
+    </task>
+    <task id="LOCAL-00232" summary="added more javadocs">
+      <created>1621756065728</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1621756065729</updated>
+    </task>
+    <task id="LOCAL-00233" summary="added more javadocs">
+      <created>1621757841955</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1621757841955</updated>
+    </task>
+    <task id="LOCAL-00234" summary="fixed produp not sending amount">
+      <created>1621759849452</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1621759849452</updated>
+    </task>
+    <task id="LOCAL-00235" summary="fixed bug with produp">
+      <created>1621761094316</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1621761094316</updated>
+    </task>
+    <task id="LOCAL-00236" summary="fixed bug with produp">
+      <created>1621762679907</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1621762679907</updated>
+    </task>
+    <task id="LOCAL-00237" summary="fixed: produp not showing amount sold">
+      <created>1621764619615</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1621764619615</updated>
+    </task>
+    <task id="LOCAL-00238" summary="fixed: produp keeps sending prices">
+      <created>1621764686813</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1621764686813</updated>
+    </task>
+    <task id="LOCAL-00239" summary="fixed: produp keeps sending prices">
+      <created>1621764728955</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1621764728955</updated>
+    </task>
+    <task id="LOCAL-00240" summary="update index and css in outreach">
+      <created>1621771397262</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1621771397263</updated>
+    </task>
+    <task id="LOCAL-00241" summary="fixed: winstate not checked">
+      <created>1621772380414</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1621772380414</updated>
+    </task>
+    <task id="LOCAL-00242" summary="updated game version to 1.0&#10;&#10;updated index and game propereties">
+      <created>1621774948211</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1621774948211</updated>
+    </task>
+    <task id="LOCAL-00243" summary="updated game version to 1.0&#10;&#10;updated index and game propereties">
+      <created>1621775548282</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1621775548282</updated>
+    </task>
+    <task id="LOCAL-00244" summary="updated index">
+      <created>1621775666809</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1621775666809</updated>
+    </task>
+    <task id="LOCAL-00245" summary="added screenshot to outreach">
+      <created>1621776525477</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1621776525478</updated>
+    </task>
+    <task id="LOCAL-00246" summary="changed screenshot width in outreach">
+      <created>1621776814283</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1621776814283</updated>
+    </task>
+    <task id="LOCAL-00247" summary="changed screenshot width in outreach">
+      <created>1621777454219</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1621777454220</updated>
+    </task>
+    <task id="LOCAL-00248" summary="added player updates after game end">
+      <created>1621778706925</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1621778706925</updated>
+    </task>
+    <task id="LOCAL-00249" summary="fixed some imports">
+      <created>1621782406120</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1621782406121</updated>
+    </task>
+    <task id="LOCAL-00250" summary="fixed some imports">
+      <created>1621783040834</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1621783040834</updated>
+    </task>
+    <task id="LOCAL-00251" summary="delete old stuff">
+      <created>1621783266063</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1621783266063</updated>
+    </task>
+    <task id="LOCAL-00252" summary="fixed bug in highscore update after game">
+      <created>1621784988113</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1621784988113</updated>
+    </task>
+    <task id="LOCAL-00253" summary="check that resource amount is &gt; 0">
+      <created>1621786067658</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1621786067658</updated>
+    </task>
+    <task id="LOCAL-00254" summary="added gameplay video to index.html">
+      <created>1621791388449</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1621791388449</updated>
+    </task>
+    <task id="LOCAL-00255" summary="added gameplay video to index.html">
+      <created>1621794187989</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1621794187989</updated>
+    </task>
+    <task id="LOCAL-00256" summary="added utf-8 for outputstreams">
+      <created>1621926109250</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1621926109250</updated>
+    </task>
+    <task id="LOCAL-00257" summary="added utf-8 for inputstreams">
+      <created>1621926451465</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1621926451465</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="masterCopy" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed leave group not working as intended" />
+    <MESSAGE value="new buglist" />
+    <MESSAGE value="Code and import cleanup in server package" />
+    <MESSAGE value="fixed: PRDUP not sending price" />
+    <MESSAGE value="added bugs from betatest to bugList" />
+    <MESSAGE value="update bugList" />
+    <MESSAGE value="added more javadocs" />
+    <MESSAGE value="fixed produp not sending amount" />
+    <MESSAGE value="fixed bug with produp" />
+    <MESSAGE value="fixed: produp not showing amount sold" />
+    <MESSAGE value="fixed: produp keeps sending prices" />
+    <MESSAGE value="update index and css in outreach" />
+    <MESSAGE value="fixed: winstate not checked" />
+    <MESSAGE value="updated game version to 1.0&#10;&#10;updated index and game propereties" />
+    <MESSAGE value="updated index" />
+    <MESSAGE value="added screenshot to outreach" />
+    <MESSAGE value="changed screenshot width in outreach" />
+    <MESSAGE value="added player updates after game end" />
+    <MESSAGE value="fixed some imports" />
+    <MESSAGE value="delete old stuff" />
+    <MESSAGE value="fixed bug in highscore update after game" />
+    <MESSAGE value="check that resource amount is &gt; 0" />
+    <MESSAGE value="added gameplay video to index.html" />
+    <MESSAGE value="added utf-8 for outputstreams" />
+    <MESSAGE value="added utf-8 for inputstreams" />
+    <option name="LAST_COMMIT_MESSAGE" value="added utf-8 for inputstreams" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.SocketException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/example_project$server_Main.ic" NAME="server.Main Coverage Results" MODIFIED="1617636034583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

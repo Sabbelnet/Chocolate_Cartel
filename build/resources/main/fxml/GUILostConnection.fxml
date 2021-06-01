@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUILostConnectionController">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="25.0" layoutY="384.0" prefHeight="82.0" prefWidth="450.0" text="you seem to have lost connection to the server" textAlignment="CENTER" textFill="#703501" wrapText="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="142.0" layoutY="14.0" text="oops!" textAlignment="CENTER" textFill="#703501" wrapText="true">
+         <font>
+            <Font size="93.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="oopsImage" fitHeight="306.0" fitWidth="209.0" layoutX="146.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../symbols/oops_image.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="726.0" prefWidth="1118.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUILobbyController">
+   <children>
+      <VBox fx:id="newGroupVB" alignment="CENTER" layoutX="249.0" layoutY="644.0" prefHeight="54.0" prefWidth="216.0">
+         <children>
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="create new group:" />
+            <HBox prefHeight="34.0" prefWidth="248.0">
+               <children>
+                  <TextField fx:id="newGameName" onAction="#handleNewGroupName" prefHeight="26.0" prefWidth="139.0" promptText="enter group name" />
+                  <Button fx:id="enterNewGroup" mnemonicParsing="false" onAction="#handleNewGroupName" styleClass="chocolatebutton" text="new group" textFill="#703501" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="92.0" fitWidth="87.0" layoutX="1017.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo_freigestellt.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="logout" layoutX="42.0" layoutY="654.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="49.0" prefWidth="108.0" styleClass="chocolatebutton" stylesheets="@../style.css" text="logout" textFill="#703501" />
+      <Text fill="#703501" layoutX="36.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="your username is: " />
+      <Text fx:id="provedUsername" fill="#703501" layoutX="139.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="150.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Text>
+      <VBox alignment="CENTER" layoutX="34.0" layoutY="171.0" prefHeight="463.0" prefWidth="200.0">
+         <children>
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="players in lobby" />
+            <ListView fx:id="lobbyPlayerList" prefHeight="505.0" prefWidth="200.0" />
+            <Button fx:id="addPlayer" mnemonicParsing="false" onAction="#handleAddPlayer" styleClass="chocolatebutton" text="add player" textFill="#703501" visible="false" />
+         </children>
+      </VBox>
+      <VBox fx:id="groupElementsVB" alignment="CENTER" layoutX="471.0" layoutY="80.0" prefHeight="470.0" prefWidth="257.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="47.0" prefWidth="216.0" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" />
+            <Text fx:id="joiningGame" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" />
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="your group:" />
+            <ListView fx:id="groupMemberList" prefHeight="491.0" prefWidth="216.0" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="highscore" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Slider fx:id="highscoreSlider" majorTickUnit="300000.0" max="300000.0" min="30000.0" minorTickCount="10" onMouseClicked="#setHighscoreLabel" onMouseDragged="#setHighscoreLabel" prefHeight="33.0" prefWidth="180.0" showTickLabels="true" showTickMarks="true" />
+                  <TextField fx:id="highscoreLabel" text="30000">
+                     <font>
+                        <Font size="10.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="duration in month" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Slider fx:id="gamelengthSlider" majorTickUnit="300.0" max="300.0" min="10.0" minorTickCount="10" onMouseClicked="#setDurationLabel" onMouseDragged="#setDurationLabel" prefHeight="38.0" prefWidth="180.0" showTickLabels="true" showTickMarks="true" />
+                  <TextField fx:id="durationLabel" text="10">
+                     <font>
+                        <Font size="10.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text=" monthlength in sec." />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Slider fx:id="monthlengthSlider" majorTickUnit="600.0" max="600.0" min="10.0" minorTickCount="10" onMouseClicked="#setMonthlengthLabel" onMouseDragged="#setMonthlengthLabel" prefWidth="180.0" showTickLabels="true" showTickMarks="true" />
+                  <TextField fx:id="monthLengthLabel" text="10">
+                     <font>
+                        <Font size="10.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <Button fx:id="startGame" mnemonicParsing="false" onAction="#handleStartGame" styleClass="chocolatebutton" text="start game" textFill="#703501" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="739.0" layoutY="112.0" prefHeight="599.0" prefWidth="339.0">
+         <children>
+            <ListView fx:id="chatMessages" prefHeight="535.0" prefWidth="339.0" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="chat to: " />
+                  <ComboBox fx:id="playerListOption" prefHeight="26.0" prefWidth="145.0" promptText="choose address" styleClass="longChocolatebutton" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="outgoingMessage" onAction="#handleOutgoingMessage" prefHeight="37.0" prefWidth="268.0" promptText="enter message here" />
+                  <Button fx:id="sendMessage" mnemonicParsing="false" onAction="#handleOutgoingMessage" prefHeight="37.0" prefWidth="72.0" styleClass="chocolatebutton" stylesheets="@../style.css" text="send" textAlignment="CENTER" textFill="#703501" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="refresher" layoutX="303.0" layoutY="35.0" mnemonicParsing="false" onAction="#getGrouplist" prefHeight="49.0" prefWidth="108.0" styleClass="chocolatebutton" stylesheets="@../style.css" text="refresh grouplist" textFill="#703501" />
+      <VBox fx:id="invitationVB" alignment="CENTER" layoutX="257.0" layoutY="472.0" prefHeight="162.0" prefWidth="200.0">
+         <children>
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="group invites" />
+            <ListView fx:id="groupInvitesList" prefHeight="505.0" prefWidth="200.0" />
+            <Button fx:id="joinGroup" mnemonicParsing="false" onAction="#handleJoinGroup" prefHeight="26.0" prefWidth="81.0" styleClass="chocolatebutton" text="join group" textFill="#703501" visible="false" />
+         </children>
+      </VBox>
+      <TreeView fx:id="groupsMembersTree" layoutX="257.0" layoutY="113.0" prefHeight="339.0" prefWidth="200.0" />
+      <MediaView fitHeight="200.0" fitWidth="200.0" layoutX="477.0" layoutY="88.0" />
+      <VBox alignment="CENTER" layoutX="34.0" layoutY="59.0" prefHeight="107.0" prefWidth="200.0">
+         <children>
+            <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="top three highscores" textAlignment="CENTER" />
+            <ListView fx:id="topHighscoresListView" prefHeight="84.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+      <Button fx:id="leaveGroup" layoutX="546.0" layoutY="35.0" mnemonicParsing="false" onAction="#leaveGroup" prefHeight="49.0" prefWidth="108.0" styleClass="chocolatebutton" stylesheets="@../style.css" text="leave group" textFill="#703501" />
+      <Button fx:id="help" layoutX="826.0" layoutY="35.0" minHeight="49.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleHelp" prefHeight="49.0" prefWidth="139.0" styleClass="chocolatebutton" stylesheets="@../style.css" text="Game Rules" textAlignment="CENTER" textFill="#703501">
+         <graphic>
+            <Label fx:id="helpLabel" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

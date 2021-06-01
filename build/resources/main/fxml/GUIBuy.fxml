@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUIBuyController">
+   <children>
+      <Button fx:id="buyButton" layoutX="404.0" layoutY="43.0" maxHeight="79.0" maxWidth="132.0" minHeight="79.0" minWidth="132.0" mnemonicParsing="false" onAction="#handleBuyButton" prefHeight="79.0" prefWidth="132.0" styleClass="chocolatebutton" text="Buy" visible="false">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
+      <Button fx:id="sugarChartButton" layoutX="475.0" layoutY="329.0" maxHeight="48.0" maxWidth="82.0" minHeight="48.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleSugarChart" prefHeight="49.0" prefWidth="82.0" styleClass="chocolatebutton" text="sugar" textFill="#703501" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="475.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="329.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <MenuButton fx:id="productmenu" layoutX="21.0" layoutY="57.0" mnemonicParsing="false" onMouseEntered="#removeWarning" prefHeight="29.0" prefWidth="85.0" styleClass="chocolatebutton" text="Product" textFill="#703501">
+         <items>
+            <MenuItem fx:id="sugar" mnemonicParsing="false" onAction="#handleSugar" text="sugar" />
+            <MenuItem fx:id="cacao" mnemonicParsing="false" onAction="#handleCacao" text="cacao" />
+            <MenuItem fx:id="milk" mnemonicParsing="false" onAction="#handleMilk" text="milk" />
+            <MenuItem fx:id="chocolate" mnemonicParsing="false" onAction="#handleChocolate" text="chocolate" />
+         </items>
+      </MenuButton>
+      <Button fx:id="cacaoChartButton" layoutX="393.0" layoutY="329.0" maxHeight="48.0" maxWidth="82.0" minHeight="48.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleCacaoChart" prefHeight="49.0" prefWidth="82.0" styleClass="chocolatebutton" text="cacao" textFill="#703501" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="393.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="329.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="milkChartButton" layoutX="475.0" layoutY="281.0" maxHeight="48.0" maxWidth="82.0" minHeight="48.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleMilkChart" prefHeight="48.0" prefWidth="82.0" styleClass="chocolatebutton" text="milk" textFill="#703501" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="475.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="281.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="chocolateChartButton" layoutX="393.0" layoutY="281.0" maxHeight="48.0" maxWidth="82.0" minHeight="48.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleChocolateChart" prefHeight="48.0" prefWidth="82.0" styleClass="chocolatebutton" text="chocolate" textFill="#703501" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="393.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="281.0">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Label fx:id="noProductWarning" layoutX="32.0" layoutY="36.0" text="please choose a product!" textFill="#703501" visible="false" />
+      <Slider fx:id="amountSlider" layoutX="21.0" layoutY="181.0" majorTickUnit="5.0" onMouseClicked="#setAmountLabel" onMouseDragged="#setAmountLabel" prefHeight="38.0" prefWidth="212.0" showTickLabels="true" showTickMarks="true" visible="false">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <ColorAdjust hue="0.11" saturation="0.42" />
+         </effect>
+      </Slider>
+      <Slider fx:id="priceSlider" layoutX="21.0" layoutY="286.0" majorTickUnit="1.0" minorTickCount="1" onMouseClicked="#setPriceLabel" onMouseDragged="#setPriceLabel" prefHeight="38.0" prefWidth="212.0" showTickLabels="true" showTickMarks="true" visible="false">
+         <effect>
+            <ColorAdjust hue="0.11" saturation="0.42" />
+         </effect>
+      </Slider>
+      <Label fx:id="chosenAmount" layoutX="113.0" layoutY="215.0" textFill="#703501">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="chosenPrice" layoutX="86.0" layoutY="317.0" textFill="#703501">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="chosenProduct" layoutX="21.0" layoutY="109.0" textFill="#703501">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="sugarSymbol" fitHeight="160.0" fitWidth="109.0" layoutX="138.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../symbols/sugar_symbol.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cacaoSymbol" fitHeight="157.0" fitWidth="109.0" layoutX="138.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../symbols/cacao_symbol.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="milkSymbol" fitHeight="157.0" fitWidth="109.0" layoutX="142.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../symbols/milk_symbol.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chocolateSymbol" fitHeight="166.0" fitWidth="101.0" layoutX="142.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../symbols/chocolate_symbol.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="amountLabel" layoutX="27.0" layoutY="215.0" text="Amount: " textFill="#703501" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel" layoutX="26.0" layoutY="317.0" text="Price:" textFill="#703501" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="196.0" prefHeight="87.0" prefWidth="162.0" text="press one of the buttons to show the economy charts of the product" textFill="#703501" wrapText="true" />
+      <Label fx:id="noAmountWarning" layoutX="26.0" layoutY="216.0" text="please choose a amount!" textFill="#ad0a0a" visible="false" />
+      <Label fx:id="noPriceWarning" layoutX="25.0" layoutY="317.0" text="please choose a price!" textFill="#ad0a0a" visible="false" />
+      <Label fx:id="amountInfo" layoutX="25.0" layoutY="156.0" text="choose the amount you want to buy" textFill="#703501" visible="false" />
+      <Label fx:id="priceInfo" layoutX="27.0" layoutY="261.0" prefHeight="17.0" text="choose a price" textFill="#703501" visible="false" />
+      <Label fx:id="offerLabel" layoutX="389.0" layoutY="129.0" textFill="#70460f" wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="nothingToBuyLabel" layoutX="31.0" layoutY="154.0" prefHeight="181.0" prefWidth="333.0" text="nothing to buy" textFill="#703501" visible="false" wrapText="true">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="setMaxButton" layoutX="21.0" layoutY="365.0" minHeight="29.0" mnemonicParsing="false" onAction="#setMax" prefHeight="29.0" prefWidth="266.0" styleClass="longChocolatebutton" text="set price and amount to the maximum" textFill="#703501" visible="false" />
+   </children>
+</AnchorPane>

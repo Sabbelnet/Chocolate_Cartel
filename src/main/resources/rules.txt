@@ -1,0 +1,9 @@
+Gamerules
+
+The target of the Game is to make as much Capital as you can. 
+Use it to upgrade your buildings to be able to produce sugar, milk, cacao and chocolate.
+To be able to upgrade your buildings past level 1 you need to upgrade your laboratory first.
+Your buildings will start to produce ressources. 
+Those ressources will be send to your warehouse, watch out that you dont overfill it!
+You can sell or buy additional ones from the Shop Button.
+With the highscore Button you can view the Highscore of your Game.

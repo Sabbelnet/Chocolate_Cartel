@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="highscoreList" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUIGameEndController">
+   <children>
+      <VBox alignment="CENTER">
+         <children>
+            <ImageView fx:id="cupPicture" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/highscore_symbol.png" />
+               </image></ImageView>
+            <Label fx:id="endText" alignment="CENTER" contentDisplay="TOP" textAlignment="CENTER" textFill="#703501" wrapText="true">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="114.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="logout" alignment="CENTER" mnemonicParsing="false" onAction="#handleLogout" prefHeight="69.0" prefWidth="117.0" styleClass="chocolatebutton" text="logout" textFill="#703501" />
+                  <FlowPane prefHeight="0.0" prefWidth="122.0" />
+                  <Button fx:id="backToLobby" alignment="CENTER" maxHeight="69.0" maxWidth="118.0" minHeight="69.0" minWidth="118.0" mnemonicParsing="false" onAction="#handleBackToLobby" styleClass="chocolatebutton" text="go back &#10;to lobby" textAlignment="CENTER" textFill="#703501" />
+                  <FlowPane layoutX="190.0" layoutY="10.0" prefHeight="0.0" prefWidth="122.0" />
+                  <Button fx:id="showHighscoreButton" maxHeight="69.0" maxWidth="118.0" minHeight="69.0" minWidth="118.0" mnemonicParsing="false" onAction="#showHighscore" styleClass="chocolatebutton" text="show highscore" textFill="#703501" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" styleClass="plainBackground" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.GUIGameController">
+   <top>
+      <VBox alignment="CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="resources">
+               <children>
+                  <Button fx:id="soundButton" alignment="CENTER" mnemonicParsing="false" onAction="#handleSoundOff" prefHeight="36.0" prefWidth="75.0" styleClass="chocolatebutton" text="sound on" textFill="#703501">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <VBox minWidth="200.0">
+                     <children>
+                        <HBox>
+                           <children>
+                              <Label minHeight="25.0" text="  CAPITAL:  " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="capital" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <FlowPane prefHeight="20.0" prefWidth="120.0" />
+                        <AnchorPane>
+                           <children>
+                              <Text fx:id="dayLabel" fill="#703501" layoutX="10.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="100.01263427734375">
+                                 <font>
+                                    <Font size="52.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="monthLabel" fill="#703501" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="117.3375244140625">
+                                 <font>
+                                    <Font size="23.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </VBox>
+                  <VBox minWidth="200.0" prefHeight="180.0" prefWidth="213.0">
+                     <children>
+                        <HBox minHeight="25.0">
+                           <children>
+                              <Text fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" text="your username:  " />
+                              <Text fx:id="usernameGame" fill="#703501" strokeType="OUTSIDE" strokeWidth="0.0" />
+                           </children>
+                        </HBox>
+                        <HBox minHeight="30.0">
+                           <children>
+                              <Label text="stock:" textFill="#703501">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="70.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/sugar_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="SUGAR: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="sugar" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/cacao_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="CACAO: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cacao" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/milk_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="MILK: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="milk" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="28.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/chocolate_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="CHOCOLATE: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="chocolate" textFill="#703501" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="285.0" layoutY="10.0" minWidth="200.0" prefHeight="180.0" prefWidth="277.0">
+                     <children>
+                        <HBox minHeight="25.0" />
+                        <HBox minHeight="30.0">
+                           <children>
+                              <Label text="offer:" textFill="#703501">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="70.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/sugar_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="SUGAR: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="sugarOfferLabel" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="36.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/cacao_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="CACAO: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="cacaoOfferLabel" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/milk_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="MILK: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="milkOfferLabel" textFill="#703501" />
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <ImageView fitHeight="28.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../symbols/chocolate_symbol.png" />
+                                 </image>
+                              </ImageView>
+                              <Label text="CHOCOLATE: " textFill="#703501">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="chocolateOfferLabel" textFill="#703501" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <right>
+      <VBox alignment="BOTTOM_CENTER" BorderPane.alignment="CENTER_RIGHT">
+         <children>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <Button fx:id="build" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleBuild" onMouseEntered="#setBuildLabel" onMouseExited="#removeLabel" styleClass="buildButton" stylesheets="@../style.css" text="&#10;" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="buildLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="buy" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleBuy" onMouseEntered="#setBuyLabel" onMouseExited="#removeLabel" styleClass="buyButton" stylesheets="@../style.css" text="&#10;" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="buyLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="sell" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleSell" onMouseEntered="#setSellLabel" onMouseExited="#removeLabel" styleClass="sellButton" stylesheets="@../style.css" text="&#10;" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="sellLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <Button fx:id="booster" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleBooster" onMouseEntered="#setBoosterLabel" onMouseExited="#removeLabel" styleClass="boosterButton" stylesheets="@../style.css" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="boosterLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="spy" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleSpy" onMouseEntered="#setSpyLabel" onMouseExited="#removeLabel" styleClass="spyButton" stylesheets="@../style.css" text="&#10;" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="spyLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="help" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleHelp" onMouseEntered="#setHelpLabel" onMouseExited="#removeLabel" styleClass="tipsButton" stylesheets="@../style.css" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="helpLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <Button fx:id="logout" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleLogout" onMouseEntered="#setLogoutLabel" onMouseExited="#removeLabel" styleClass="logoutButton" stylesheets="@../style.css" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="logoutLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="data" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleMonthlyUpdate" onMouseEntered="#setDataLabel" onMouseExited="#removeLabel" styleClass="dataButton" stylesheets="@../style.css" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="dataLabel" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="ranking" minHeight="118.0" minWidth="82.0" mnemonicParsing="false" onAction="#handleRanking" onMouseEntered="#setRankingLabel" onMouseExited="#removeLabel" styleClass="highscoreButton" stylesheets="@../style.css" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="9.0" />
+                     </font>
+                     <graphic>
+                        <Label fx:id="rankingLabel" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <VBox>
+               <children>
+                  <ListView fx:id="chatMessages" />
+                  <ComboBox fx:id="messageReceiver" minHeight="30.0" minWidth="130.0" promptText="receiver" styleClass="longChocolatebutton" />
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="gameMessageField" minHeight="30.0" minWidth="150.0" onAction="#handleOutgoingMessage" promptText="your message">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="sendMessage" minHeight="30.0" minWidth="50.0" mnemonicParsing="false" onAction="#handleOutgoingMessage" prefHeight="30.0" prefWidth="69.0" styleClass="chocolatebutton" text="send" textFill="#703501">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <Pane fx:id="backgroundPane" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="backgroundView" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../background.png" />
+               </image></ImageView>
+            <ImageView fx:id="sittingSpySabView" fitHeight="161.0" fitWidth="167.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/sittingSpySab.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="spyWithChairSabView" fitHeight="161.0" fitWidth="167.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/spyWithChairSab.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="spySabView" fitHeight="299.0" fitWidth="247.0" layoutX="40.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/spySab.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sittingSpyView" fitHeight="161.0" fitWidth="167.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/sittingSpy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="spyWithChairView" fitHeight="161.0" fitWidth="167.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/spyWithChair.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="spyView" fitHeight="161.0" fitWidth="167.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../symbols/spy.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sugarView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/sugar_level_1.png" />
+               </image></ImageView>
+            <ImageView fx:id="sugarView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/sugar_level_2.png" />
+               </image></ImageView>
+            <ImageView fx:id="sugarView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/sugar_level_3.png" />
+               </image></ImageView>
+            <ImageView fx:id="labView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/laboratory_level_1.png" />
+               </image></ImageView>
+            <ImageView fx:id="labView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/laboratory_level_2.png" />
+               </image></ImageView>
+            <ImageView fx:id="labView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/laboratory_level_3.png" />
+               </image></ImageView>
+            <ImageView fx:id="cacaoView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/cacao_level_1.png" />
+               </image></ImageView>
+            <ImageView fx:id="cacaoView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/cacao_level_2.png" />
+               </image></ImageView>
+            <ImageView fx:id="cacaoView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/cacao_level_3.png" />
+               </image></ImageView>
+            <ImageView fx:id="milkView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/milk_level_1.png" />
+               </image></ImageView>
+            <ImageView fx:id="milkView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/milk_level_2.png" />
+               </image></ImageView>
+            <ImageView fx:id="milkView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/milk_level_3.png" />
+               </image></ImageView>
+            <ImageView fx:id="chocolateView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/chocolate_level_1.png" />
+               </image></ImageView>
+            <ImageView fx:id="chocolateView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/chocolate_level_2.png" />
+               </image></ImageView>
+            <ImageView fx:id="chocolateView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/chocolate_level_3.png" />
+               </image></ImageView>
+            <ImageView fx:id="warehouseView1" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/warehouse1.png" />
+               </image></ImageView>
+            <ImageView fx:id="warehouseView2" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/warehouse2.png" />
+               </image></ImageView>
+            <ImageView fx:id="warehouseView3" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../buildings/warehouse3.png" />
+               </image></ImageView>
+            <ImageView fx:id="millView" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../windmill.gif" />
+               </image>
+            </ImageView>
+            <Button fx:id="hideLevelButton" layoutX="1.0" layoutY="158.0" mnemonicParsing="false" onAction="#hideLevels" prefHeight="30.0" prefWidth="50.0" styleClass="chocolatebutton" text="hide Levels" textFill="#703501" wrapText="true">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="showLevelButton" layoutX="1.0" layoutY="188.0" mnemonicParsing="false" onAction="#showLevels" prefHeight="30.0" prefWidth="50.0" styleClass="chocolatebutton" text="show Levels" textFill="#703501" wrapText="true">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Text fx:id="sugarLabel" fill="#e9dfbd" layoutX="10.0" layoutY="10.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="milkLabel" fill="#e9dfbd" layoutX="20.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="cacaoLabel" fill="#e9dfbd" layoutX="30.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="chocolateLabel" fill="#e9dfbd" layoutX="40.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="labLabel" fill="#e9dfbd" layoutX="50.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <Text fx:id="warehouseLabel" fill="#e9dfbd" layoutX="60.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="16.0" />
+               </font></Text>
+            <AnchorPane fx:id="winPane">
+               <children>
+                  <ImageView fx:id="winBackground" pickOnBounds="true" preserveRatio="true" />
+                  <Label fx:id="endText" alignment="CENTER" contentDisplay="TOP" textAlignment="CENTER" textFill="#703501" wrapText="true">
+                     <font>
+                        <Font size="60.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="cupPicture" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="sugarBuilding" mnemonicParsing="false" onAction="#buildSugar" opacity="0.0" text="Button" visible="false" />
+            <Button fx:id="cacaoBuilding" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buildCacao" opacity="0.0" text="Button" visible="false" />
+            <Button fx:id="milkBuilding" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#buildMilk" opacity="0.0" text="Button" visible="false" />
+            <Button fx:id="chocolateBuilding" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" onAction="#buildChocolate" opacity="0.0" text="Button" visible="false" />
+            <Button fx:id="labBuilding" layoutX="40.0" layoutY="40.0" mnemonicParsing="false" onAction="#buildLab" opacity="0.0" text="Button" visible="false" />
+            <Button fx:id="warehouseBuilding" layoutX="50.0" layoutY="50.0" mnemonicParsing="false" onAction="#buildWarehouse" opacity="0.0" text="Button" visible="false" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
